@@ -1,5 +1,5 @@
 const player = document.querySelector('.player');
-const video = player.querySelector('.player__video'); 
+const video = player.querySelector('.viewer'); 
 const toggle = player.querySelector('.toggle');
 const skipButtons = player.querySelectorAll('[data-skip]');
 const ranges = player.querySelectorAll('.player__slider');
